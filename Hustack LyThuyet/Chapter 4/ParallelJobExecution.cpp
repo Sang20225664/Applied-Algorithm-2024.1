@@ -19,6 +19,7 @@ int main (){
 
     int T = 0;
     for(int i = 0; i < n; i++) T = max(T, d[i] + i);
+    //i la khoang thoi gian can cho truoc khi cviec bdau
 
     cout << T << endl;
     return 0;
